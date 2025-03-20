@@ -67,14 +67,14 @@ return (
                                 <input type="checkbox" id="remember" />
                                 <label htmlFor="remember">Remember me</label>
                             </div>
-                            <a href="#" className="forgot-password">Forgot password?</a>
+                            <a href="/forgot-password" className="forgot-password">Forgot password?</a>
                         </div>
                         
                         <button type="submit" className="sign-in-btn">Sign In</button>
                     </form>
                     
                     <div className="login-footer">
-                        <p>Don't have an account? <a href="#">Sign Up</a></p>
+                        <p>Don't have an account? <a href="/signup">Sign Up</a></p>
                     </div>
                 </div>
             </div>

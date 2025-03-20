@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link, Navigate } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home'
@@ -57,10 +56,10 @@ function App() {
             <div className="footer-column">
               <h4>Follow Us</h4>
               <div className="social-icons">
-                <a href="#" className="social-icon">FB</a>
-                <a href="#" className="social-icon">IG</a>
-                <a href="#" className="social-icon">TW</a>
-                <a href="#" className="social-icon">YT</a>
+                <a href="https://facebook.com" className="social-icon" target="_blank" rel="noopener noreferrer">FB</a>
+                <a href="https://instagram.com" className="social-icon" target="_blank" rel="noopener noreferrer">IG</a>
+                <a href="https://twitter.com" className="social-icon" target="_blank" rel="noopener noreferrer">TW</a>
+                <a href="https://youtube.com" className="social-icon" target="_blank" rel="noopener noreferrer">YT</a>
               </div>
             </div>
           </div>
